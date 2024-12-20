@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+main {
+    padding: 20px;
+}
+
+
+
+form {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+li {
+    background-color: pink;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+}/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 23 Nov 2024, 21:36:05
+    Author     : Surf
+*/
+
+
+.active {
+
+}
+
+.container {
+
+}

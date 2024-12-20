@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointments</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+
+
+    <script src="appointments.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Appointments Management</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="appointments.html" class="active">Appointments</a></li>
+                <li><a href="tasks.html">Tasks</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main>
+
+        <section id="appointment-form">
+
+            <h2>Create New Appointment</h2>
+
+            <form id="appointmentForm">
+
+                <input type="text" name="description" placeholder="Appointment Description" required>
+
+                <input type="datetime-local" name="appointment_date" required>
+
+                <button type="submit">Create Appointment</button>
+
+            </form>
+
+        </section>
+
+
+
+        <section id="appointments-list">
+
+            <h2>Your Appointments</h2>
+
+            <ul id="appointments">
+
+                <!-- Appointments will be populated dynamically via JavaScript -->
+
+            </ul>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
+
+

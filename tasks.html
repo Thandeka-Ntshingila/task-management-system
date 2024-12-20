@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+ <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Task Management System</title>
+         <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+    </head>
+    <body>
+           <header>
+        <h1>Task Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="appointments.html">Appointments</a></li>
+                <li><a href="tasks.html">Tasks</a></li>
+            </ul>
+        </nav>
+    </header>
+        
+        <main>
+        <section id="task-form">
+            <h2>Create Task</h2>
+            <form id="taskForm">
+                <input type="text" name="title" placeholder="Task Title" required>
+                <textarea name="description" placeholder="Task Description" required></textarea>
+                
+                    <label for="assigned_to">Assigned To:</label>
+
+            <select name="assigned_to" id="assigned_to">
+
+                <!-- Example: Assume user IDs 1, 2, and 3 -->
+
+                <option value="1">User 1</option>
+                <option value="2">User 2</option>
+                <option value="3">User 3</option>
+
+            </select><br>
+                
+                <input type="date" name="due_date" required>
+                <button type="submit">Create Task</button>
+            </form>
+        </section>
+
+
+
+        <section id="tasks-list">
+            <h2>All Tasks</h2>
+            <ul id="tasks">
+
+                <!-- Tasks will be populated dynamically -->
+
+            </ul>
+        </section>
+
+    </main>
+    </body>
+</html>
